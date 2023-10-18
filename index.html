@@ -12,9 +12,10 @@
     <body>
 
         <h1>General Admission Registration</h1>
-        <main>    
-            <form>
-                <section class="seection one">
+        <main>
+
+            <form id="form-page">
+                <section class="section one">
 
 
                     <div class="names-input">
@@ -27,7 +28,7 @@
 
                     <div class="email-input">
                         <label for="emails" class="label-group">Email</label>
-                        <input type="email" name="mail" placeholder="sample@example.com" required>
+                        <input id="emails" type="email" name="mail" placeholder="sample@example.com" required>
                     </div>
                     
                     
@@ -77,7 +78,6 @@
                             <label><input type="radio" id="noroom" name="room" value="noroom" > No Room Needed</label>
                         </div>
                     </div>
-
                     
                 </section>
                 <section class="section two">
@@ -86,7 +86,6 @@
                     <div class="dietary-input">    
                         <label class="label-group">Do you have dietary restrictions?</label>
                         <div class="input-group">
-                            <label><input type="checkbox" id="awardsgala" name="activities" value="awardsgala"> Awards Gala Dinner</label>
                             <label><input type="checkbox" id="vegetarian" name="dietary" value="vegetarian"> Vegetarian</label>
                             <label><input type="checkbox" id="gluttenallergy" name="dietary" value="gluttenallergy"> Glutten Allergy</label>
                             <label><input type="checkbox" id="lactoseallergy" name="dietary" value="lactoseallergy"> Lactose Allergy</label>
@@ -113,11 +112,13 @@
                         <label class="label-group">Do you want to see the list of other attendeees and their profiles on the official event app?</label>
                         <div class="input-group inline">
                             <input type="radio" id="yanswer" name="attendees" value="yanswer" >
-                            <label for="">Yes</label>
+                            <label for="yanswer">Yes</label>
                             <input type="radio" id="nanswer" name="attendees" value="nanswer" >
-                            <label for="">No</label>
+                            <label for="nanswer">No</label>
                         </div>
                     </div>
+
+                    <input type="submit" name="submit">
                 </section>
             </form>
         
