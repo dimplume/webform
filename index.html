@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <title>General Admission Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+
+    <body>
+
+        <h1>General Admission Registration</h1>
+        <main>    
+            <form>
+                <div class="section-divider">
+                    <div>
+                        <label class="label-group">Name</label>
+                        <input type="text" id="fname" name="name" placeholder="First Name" required> 
+                        <input type="text" id="lname" name="name" placeholder="Last Name" required>
+                    </div>
+                    
+                    
+
+                    <div>
+                        <label for="emails" class="label-group">Email</label>
+                        <input type="email" name="mail" placeholder="sample@example.com" required>
+                    </div>
+                    
+                    
+
+                    <div>
+                        <label class="label-group">Gender</label>  
+                        <input type="radio" id="fgender" name="gender" value="fgender">
+                        <label for="fgender">Female</label>
+                        <input type="radio" id="mgender" name="gender" value="mgender">
+                        <label for="mgender">Male</label>
+                        <input type="radio" id="ngender" name="gender" value="ngender">
+                        <label for="ngender">Prefer Not To Say</label>
+                    </div>
+                    
+                    
+
+                    <div>
+                        
+                        <label class="label-group">Phone</label>
+                        <input type="tel" id="phone" name="telnum">
+
+                    </div>
+                    
+                    
+
+                    <div>
+
+                        <label class="label-group">Emergency Contact</label>
+                        <input type="text" id="emergency" name="emcontact" class="position">
+
+                    </div>
+
+                    <div>
+                        <label class="label-group">Do you require parking?</label> 
+                        <label><input type="radio" id="ypark" name="parking" id="ypark"> Yes</label>
+                        <label><input type="radio" id="npark" name="parking" id="npark"> No</label>             
+                    </div>
+                    
+
+                    <div>
+                        <label class="label-group">What is your room preference?</label>
+                        <div class="input-group">   
+                            <label><input type="radio" id="single" name="room" value="single" > Single Room</label>
+                            <label><input type="radio" id="shared" name="room" value="shared" > Shared Room</label>
+                            <label><input type="radio" id="noroom" name="room" value="noroom" > No Room Needed</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-divider">
+                    <div>
+                        
+                        <label class="label-group">Do you have dietary restrictions?</label>
+                        <div class="input-group">
+                            <label><input type="checkbox" id="awardsgala" name="activities" value="awardsgala"> Awards Gala Dinner</label>
+                            <label><input type="checkbox" id="vegetarian" name="dietary" value="vegetarian"> Vegetarian</label>
+                            <label><input type="checkbox" id="gluttenallergy" name="dietary" value="gluttenallergy"> Glutten Allergy</label>
+                            <label><input type="checkbox" id="lactoseallergy" name="dietary" value="lactoseallergy"> Lactose Allergy</label>
+                            <label><input type="checkbox" id="nutallergy" name="dietary" value="nutallergy"> Nut Allergy</label>
+                            <label><input type="checkbox" id="shellfishallergy" name="dietary" value="shellfishallergy"> Shellfish Allergy</label>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <label class="label-group">What activities will you attend?</label>
+
+                        <div class="input-group">
+                            <label><input type="checkbox" id="awardsgala" name="activities" value="awardsgala"> Awards Gala Dinner</label>
+                            <label><input type="checkbox" id="luncheon" name="activities" value="luncheon"> Luncheon</label>
+                            <label><input type="checkbox" id="townhall" name="activities" value="townhall"> Town Hall</label>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        
+                        <label class="label-group">Do you want to see the list of other attendeees and their profiles on the official event app?</label>
+                        <div class="input-group inline">
+                            <input type="radio" id="yanswer" name="attendees" value="yanswer" >
+                            <label for="">Yes</label>
+                            <input type="radio" id="nanswer" name="attendees" value="nanswer" >
+                            <label for="">No</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        
+        </main>
+    </body>
+
+</html>
